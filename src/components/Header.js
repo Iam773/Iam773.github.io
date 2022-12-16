@@ -4,8 +4,9 @@ import "./Header.css"
 import "./HeaderCss1.css"
 import Banner from './Banner';
 import Content from './Content';
-import Call2Action from './Call2Action';
 import Footer from './Footer';
+import Home from './page/Home';
+// Home
 // import Profile from './Profile';
 // Profile
 function Header() {
@@ -24,8 +25,11 @@ function Header() {
                 {/* <div className={logo_click ? "logo-container scale-in-out" : "logo-container"} onClick={handle_logo_Click}> */}
                 <div className="logo-container"  onClick={handle_logo_Click}>
                     
-                    <div className={logo_click ? "scale-in-out head-text" : "head-text "}>
-                        <i className='fa-solid fa-code'></i>
+                    <div className={logo_click ? "scale-in-out head-text" : "head-text scale-in-out1"}>
+                        
+                        {/* <i className='fa-solid fa-sand-back'></i> */}
+                        <i className='fa fa-exchange'></i>
+
                         {/* <a href="#" className={logo_click ? "scale-in-out head-text change" : "head-text"}><FiCode /></a> */}
                        
                     </div>
@@ -58,13 +62,17 @@ function Header() {
    {
     logo_click ? 
     (
-        <div className="scale-in-center">
-            <Banner />
+        <div className="slide-in-left">
+            <Home />
         </div>
 
     )
         : 
-        "test"
+    (
+        <div className='slide-in-left1'>
+        <Banner />
+        </div>
+    )
    }
     
     </div>

@@ -4,7 +4,7 @@ import "./Banner.css"
 
 let bannerData = {
     title: "React landing page",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id officia dolore delectus aspernatur praesentium ipsum voluptas impedit laboriosam repellendus ut atque, maxime perferendis maiores eius sequi iste in laborum?"
+    desc: "it laboriosam repellendus ut atque, maxime perferendis maiores eius sequi iste in laborum?"
 }
 function Banner() {
   return (
