@@ -170,10 +170,10 @@
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 360px){
     .profile-container {
         display: flex;
-        min-width: 375px;
+        min-width: 360px;
     }
 
     .profile-picture {

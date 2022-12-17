@@ -19,8 +19,8 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
     .home-container {
-        min-width: 370px;
+        min-width: 360px;
     }
 }
