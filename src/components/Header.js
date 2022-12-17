@@ -19,7 +19,7 @@ function Header() {
 
   return (
     <>
-    <div className="header">
+    <div className="main-header-773">
         <div className="container">
             <div className="header-con">
                 {/* <div className={logo_click ? "logo-container scale-in-out" : "logo-container"} onClick={handle_logo_Click}> */}

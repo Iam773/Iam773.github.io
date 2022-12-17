@@ -1,7 +1,19 @@
 import React from 'react'
-
+// import second from "react-dom"
+// import ReactDOM from 'react-dom';
+// import "@coreui/coreui/dist/css/core"
+// import '@coreui/coreui/dist/css/coreui.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import { CButton } from '@coreui/react'
+// CButton
+// import "@coreui/coreui/dist/css/"
+// import second from ""
 import "./Profile.css"
+import "./Sprofile.css"
+import "./button.css"
 import Typical from 'react-typical';
+import { FiCode, FiX, FiMenu } from 'react-icons/fi'
+
 function Profile() {
   return (
     <div className='profile-container'>
@@ -30,7 +42,7 @@ function Profile() {
                 <div className="profile-details-name">
                     <span className='primary-text'>
                     {""}
-                    Hello, I'M <span className='highlighted-text'>773</span>
+                    Hello, I'm <span className='highlighted-text'>773</span>
                     </span>
                 </div>
                 <div className="profile-details-role">
@@ -41,38 +53,59 @@ function Profile() {
                         <Typical 
                         loop={Infinity}
                         steps={[
-                            "test1 asdasdasd",
-                            1000,
-                            "asdasdasdasd",
-                            1000,  
-                            "asdadasdasdasdas",
-                            1000,
-                            "asdassdsdsdasddasd",
-                            1000,
-                            "asdasasdadssddasd",
-                            1000,
-                            "asdasdsdsdsddsdasd",
-                            1000,
-                            "asdasdasdasdasdaasd",
-                            1000,
+                            "Back-end",
+                            2000,
+                            "Python",
+                            2000,  
+                            "Css",
+                            2000,
+                            "Javascript",
+                            2000,
+                            "Java",
+                            2000,
+                            "C++",
+                            2000,
+                            "Html",
+                            2000,
+                            "Php",
+                            2000,
+                            "Sql",
+                            2000,
+                            "Json Config",
+                            2000,
+                            "Yaml Config",
+                            2000,
+                            "Git",
+                            2000,
                         ]}
                         />
                         </h1>
                         <span className='profile-role-tagline'>
-                            officia perferendis voluptatem amet beatae distinctio et id delectus?
+                            Name: asdasdasdasdasdasdasdasd<br />
+                            Nickname: asdasdasdasd<br />
+                            Age: xx <br />
+                            Hobby: Writing programs in spare time
                         </span>
+                        
                     </span>
                 </div>
-                        <div className="profile-option">
-                            <button className='btn primary-btn'>
-                                {" "}
-                                Hire Me{" "}
-                            </button>
-                            <a href="#">
-                            <button className='btn highlighted-btn'>
-                            Get Resume
-                            </button>
-                            </a>
+
+                {/* <div class="box-2">
+                    <div class="btn-main btn-main-two">
+                        <span>HOVER ME</span>
+                    </div>
+                    </div> */}
+                        <div className="btn-main btn-main-two">
+                           <span>Learn More</span>
+                           {/* <button>Test</button> */}
+                            {/* <CButton color="danger" variant="outline">Danger</CButton> */}
+                            {/* <CButton color="success" shape="rounded-pill">Success</CButton>
+                             */}
+                             {/* <CButton color="secondary" variant="outline">Secondary</CButton> */}
+                             {/* <CButton color="light" className='primary-text' variant="ghost" shape="rounded-pill">Success</CButton> */}
+                             {/* <CButton color="info" variant="outline" shape="rounded-pill">Learn More</CButton> */}
+                             {/* <CButton color="light" variant="ghost">Light</CButton> */}
+                            {/* <CButton color="danger" variant="outline">Danger</CButton> */}
                           
                            
                         </div>

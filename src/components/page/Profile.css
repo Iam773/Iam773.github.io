@@ -23,11 +23,19 @@
     flex-direction: column;
     margin: 14px 0 24 px 0;
 }
-
+.profile-details {
+    margin: 60px 0 0 0;
+}
 .profile-details-role h1 {
     font-size: 40px;
     font-family: cursive;
 }
+/* 
+.profile-options {
+    display: flex;
+    justify-content: space-between;
+} */
+
 
 .primary-text {
     color: #fff;
@@ -37,7 +45,7 @@
     color: darkorange;
 }
 
-.profile-cole-tagline {
+.profile-role-tagline {
     font-size: 19px;
     margin: 5px 0 0 0;
     font-family: "Poppins Light";
@@ -61,7 +69,7 @@
     border-radius: 50%;
     height: 380px;
     width: 380px;
-    margin: 0 0px 0 100px;
+    margin: 30px 0px 0 250px;
 }
 
 .profile-picture-bg {
@@ -117,6 +125,7 @@
     }
 } */
 
+
 @media screen and (max-width: 480px){
     .profile-container {
         display: flex;
@@ -125,7 +134,7 @@
 
     .profile-picture {
         /* margin: 0 !important; */
-        margin: 0 10px 0 0px;
+        margin: 560px 10px 0 0px;
         height: 300px;
         width: 300px;
     }
@@ -141,7 +150,7 @@
     }
 
     .profile-details {
-        margin: 10px 40px 0 0px;
+        margin: 30px 0px 0 0px;
         width: 100%;
         /* width: 90%; */
     }
@@ -157,6 +166,53 @@
     .profile-details-role h1 {
         font-size: 25px;
         font-family: cursive;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .profile-container {
+        display: flex;
+        min-width: 375px;
+    }
+
+    .profile-picture {
+        /* margin: 0 !important; */
+        margin: 0 10px 0 0px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 500px 0 0 0;
+    }
+
+    .profile-options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-details {
+        margin: 15px 0px 0 0px;
+        width: 100%;
+        /* width: 90%; */
+    }
+
+    .profile-options .highlighted-btn {
+        margin: 0 !important;
+    }
+
+    .profile-options .profile-details-role {
+        text-align: center;
+    }
+
+    .profile-details-role h1 {
+        font-size: 20px;
+        font-family: cursive;
+    }
+    .profile-role-tagline {
+        font-size: 15px;
     }
 }
 /* 

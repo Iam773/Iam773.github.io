@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.header {
+.main-header-773 {
     background: #333;
     height: 60px;
 }
@@ -84,6 +84,7 @@
 .mobile-menu {
     display: none;
 }
+
 
 @media screen and (max-width: 480px) {
     .mobile-menu {

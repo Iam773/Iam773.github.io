@@ -4,11 +4,23 @@
     justify-content: space-between;
     /* height: 50vh !important; */
     min-width: 670px;
-    background-image: url("../page/assets/Home/bg.jpg");
+    /* background-image: url("../page/assets/Home/bg.jpg"); */
+    background-color: #293242;
+    min-height: 605px;
+    /* height: auto; */
 }
 
 @media screen and (max-width: 480px){
     .home-container {
         min-width: 390px;
+        /* min-height: 600px;
+         */
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home-container {
+        min-width: 370px;
     }
 }
