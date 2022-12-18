@@ -25,7 +25,7 @@ function Profile() {
                         <i className='fa fa-facebook-square'> </i>
                     </a>
                     <a href="#">
-                        <i className='fa fa-google-plus-square'> </i>
+                        <i className="fa-brands fa-line"> </i>
                     </a>
                     <a href="#">
                     

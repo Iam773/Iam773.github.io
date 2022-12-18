@@ -28,11 +28,8 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  /* position: static; */
-  /* width: 20px; */
-  /* height: -20px; */
-  /* top: 10px; */
 }
+
 .logo-container span{
   color: #fff;
   text-decoration: none;
@@ -131,6 +128,15 @@
     }
 }
 
+@media screen and (max-width: 360px){
+  .head-text{
+    font-size: 20px;
+    margin: 0 0 0 10px;
+  }
+  .mobile-menu {
+    margin: 0 0 10px 0;
+}
+}
 .scale-out-center {
 	-webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;

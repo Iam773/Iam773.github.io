@@ -4,6 +4,8 @@
     justify-content: space-between;
     /* height: 50vh !important; */
     min-width: 670px;
+    /* width: 100vw;
+    height: 100vh; */
     /* background-image: url("../page/assets/Home/bg.jpg"); */
     background-color: #293242;
     min-height: 605px;
@@ -21,6 +23,6 @@
 
 @media screen and (max-width: 360px) {
     .home-container {
-        min-width: 360px;
+        min-width: 340px;
     }
 }
