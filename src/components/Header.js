@@ -63,14 +63,15 @@ function Header() {
     logo_click ? 
     (
         <div className="slide-in-left">
-            <Home />
+        <Banner />
+
         </div>
 
     )
         : 
     (
         <div className='slide-in-left1'>
-        <Banner />
+        <Home />
         </div>
     )
    }

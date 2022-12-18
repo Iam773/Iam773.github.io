@@ -8,6 +8,8 @@
     height: 100vh; */
     /* background-image: url("../page/assets/Home/bg.jpg"); */
     background-color: #293242;
+    background-size: auto;
+    background-repeat: no-repeat;
     min-height: 605px;
     /* height: auto; */
 }

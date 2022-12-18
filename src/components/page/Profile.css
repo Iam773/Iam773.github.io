@@ -133,7 +133,6 @@
     }
 
     .profile-picture {
-        /* margin: 0 !important; */
         margin: 560px 10px 0 0px;
         height: 300px;
         width: 300px;
@@ -152,7 +151,6 @@
     .profile-details {
         margin: 30px 0px 0 0px;
         width: 100%;
-        /* width: 90%; */
     }
 
     .profile-options .highlighted-btn {
