@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Header from './components/Header'
-import SheetApp from './Sheets/SheetApp';
+// import Header from './components/Header'
+// import SheetApp from './Sheets/SheetApp';
+import Home from "./new/home"
 // Footer
 // Call2Action
 // Content
@@ -10,7 +11,7 @@ function App() {
   return (
    <>
    {/* <SheetApp /> */}
-    <Header />
+    {/* <Home /> */}
     {/* <Banner />
     <Content />
     <Call2Action />
