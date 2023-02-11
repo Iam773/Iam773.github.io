@@ -1,43 +1,24 @@
-import React, { useState } from "react";
-import Tesseract from "tesseract.js";
-
-const ImageToText = () => {
-  const [text, setText] = useState("");
-  const [file, setFile] = useState(null);
-
-  const handleChange = (event) => {
-    setFile(event.target.files[0]);
-  };
-
-  const extractText = async () => {
-    if (!file) return;
-
-
-    Tesseract.recognize(
-      file,
-      'eng',
-      { logger: m => console.log(m) }
-    ).then(({ data: { text } }) => {
-      console.log(text);
-      setText(text);
-    })
-
-    // const result = await Tesseract.recognize(file, {
-    //   lang: "eng",
-    // });
-
-  };
-
+// import logo from './logo.svg';
+// import './App.css';
+// import Header from './components/Header'
+// import SheetApp from './Sheets/SheetApp';
+import Home from "./new/home"
+// Footer
+// Call2Action
+// Content
+// SheetApp
+function App() {
   return (
-    <div>
-      {/* <form> */}
-        <input type="file" accept="image/*" onChange={handleChange} />
-        {file && <p>{file.name}</p>}
-        <button onClick={extractText}>Extract Text</button>
-      {/* </form> */}
-      {text && <p>{text}</p>}
-    </div>
+   <>
+   {/* <SheetApp /> */}
+    <Home />
+    {/* <Banner />
+    <Content />
+    <Call2Action />
+    <Footer /> */}
+   </>
   );
-};
+}
 
-export default ImageToText;
+export default App;
+

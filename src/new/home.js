@@ -24,7 +24,8 @@ function App() {
       <ul className={click ? "menu active" : "menu"}>
                     <li className='menu-link menu-contact' onClick={closeMobileMenu}>
                         {/* <a href="">CONTACT</a> */}
-                        Dark &nbsp; <FaMoon />
+                        <h6>White &nbsp; <FaMoon /></h6>
+                        
                     </li>
                     <li className='menu-link menu-blog' onClick={closeMobileMenu}>
                         {/* <a href="">BLOG</a> */}
@@ -34,7 +35,7 @@ function App() {
     </div>
 
     <div className="body-container">
-      
+
     </div>
     </>
     // <div className={darkMode ? 'dark-mode' : 'light-mode'}>
