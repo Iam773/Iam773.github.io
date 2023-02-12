@@ -5,3 +5,9 @@
     /* position: arelative; */
 }
 
+@media only screen and (max-width: 1536px) {
+    .body-container{
+        width: auto;
+        height: 93.15vh;
+    }
+}

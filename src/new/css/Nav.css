@@ -1,8 +1,8 @@
 .nav-container{
-    background-color: black;
+    /* background-color: black; */
     width: auto;
     height: 50px;
-    color: wheat;
+    /* color: wheat; */
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -10,6 +10,16 @@
     list-style-type: none;
     /* height: 10px; */
 }
+
+.nav-dark {
+    background-color: #11111d;
+    color: #D9E1E2;
+  }
+  
+.nav-light {
+    background-color: #7399b8;
+    color: #293242;
+  }
 
 .nav-container span{
     margin: 0 0 0 20px;
@@ -44,7 +54,6 @@
 }
 
 .menu.active {
-    background: #111;
     left: 0;
     opacity: 1;
     z-index: 1;
@@ -52,6 +61,14 @@
     align-content: center;
     transition: 0.7 ease;
 }
+.menu-dark{
+    background: #11111d;
+}
+
+.menu-light{
+    background-color: #7399b8;
+}
+
 .menu li {
     padding-right: 0;
 }

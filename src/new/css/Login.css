@@ -1,0 +1,114 @@
+.login-container.light{
+    left: 0;
+    width: 300px;
+    height: 300px;
+    margin: 150px 0 0 600px;
+    border-color: #D9E1E2;
+    position: absolute;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    background: #7399b8;
+    font-family: majaa;
+    display: flex;
+    opacity: 1;
+    transition: 1s ease-in;
+    border-radius: 10px;
+}
+.login-container.dark{
+    left: 0;
+    width: 300px;
+    height: 300px;
+    margin: 150px 0 0 600px;
+    /* top: 50%; */
+    /* border-color: #6C7A89 ; */
+    position: absolute;
+    /* border-style: solid; */
+    /* border-width: medium; */
+    text-align: center;
+    background: #182030;
+    font-family: majaa;
+    display: flex;
+    opacity: 1;
+    transition: 1s ease-in;
+    border-radius: 10px;
+}
+.login-container.hide{
+    left: -100%;
+    opacity: 0;
+    /* transition: 1s ease-in; */
+}
+
+@font-face {
+    font-family: majaa;
+    src: url("../font/maajaver1.00.ttf");
+}
+.login-container.light input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container.light input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container.light input[type=submit], select{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login-container.dark input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container.dark input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container.dark input[type=submit], select{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media only screen and (max-device-width: 360px) and (max-device-height: 780px) {
+    .login-container.dark{
+        margin: 0 0 0 0;
+    }
+}
